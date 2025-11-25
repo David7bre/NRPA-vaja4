@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace NRPA_vaja4
 {
-    class Program
+    class program1
     {
         static void Main(string[] args)
         {
+            Ulomek u1 = new Ulomek(4, 16);
+            u1.Okrajsaj();
+            Console.WriteLine("Ulomek u1: " + u1);
         }
     }
 }
